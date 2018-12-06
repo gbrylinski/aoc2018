@@ -48,4 +48,4 @@ class Solution
   end
 end
 
-Solution.new('2.txt').run
+Solution.new(ARGV[-1]).run

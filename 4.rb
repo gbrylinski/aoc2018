@@ -70,4 +70,4 @@ class Solution
   end
 end
 
-Solution.new('4.txt').run
+Solution.new(ARGV[-1]).run

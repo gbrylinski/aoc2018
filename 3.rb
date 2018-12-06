@@ -15,7 +15,7 @@ class Solution
       claim(id, x, y, w, h)
     end
 
-    field.inject(0) do |a, (_k, v)| 
+    field.inject(0) do |a, (_k, v)|
       v >= 2 ? a + 1 : a
     end
   end
@@ -65,4 +65,4 @@ class Solution
   end
 end
 
-Solution.new('3.txt').run
+Solution.new(ARGV[-1]).run
